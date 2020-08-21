@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Ramont Junior">
+    <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
     <title>Mural</title>
@@ -35,35 +35,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Starter template</a>
+          <a class="navbar-brand" href="#">Portal</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Início</a></li>
             <li><a href="#about">Sobre</a></li>
             <li><a href="#contact">Contato</a></li>
+            <?php print '<li><a href="#contact">Contato</a></li>'; ?>
             <li><a href="https://trello.com/b/7R51xpk9">Mural</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
-    <div class="container">
-
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      </div>
-
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
-  </body>
-</html>
